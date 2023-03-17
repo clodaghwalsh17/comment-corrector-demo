@@ -12,7 +12,6 @@ jobs:
         with:
           repository: clodaghwalsh17/comment-corrector
           ref: beta
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           path: ./.github/actions/comment-corrector
       
       - name: Check Comments
