@@ -10,7 +10,5 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: cat file_a.py
-        run: cat file_a.py
-#       - name: Check Comments
-#         uses: clodaghwalsh17/comment-corrector@betav9
+      - name: Check Comments
+        uses: clodaghwalsh17/comment-corrector@betav10
