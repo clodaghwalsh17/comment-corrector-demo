@@ -6,13 +6,10 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     name: Use Comment Corrector Action
+    # continue-on-error: true
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          repository: clodaghwalsh17/comment-corrector
-          ref: beta
-          path: ./.github/actions/comment-corrector
-      
+              
       - name: Check Comments
-        uses: ./.github/actions/comment-corrector
+        uses: clodaghwalsh17/comment-corrector@betav9
