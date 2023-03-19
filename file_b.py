@@ -1,3 +1,4 @@
+# File authored by clodagh
 # TODO Some other comment that refers to tax
 cost = 100
 # Set the variable tax to 0.5
