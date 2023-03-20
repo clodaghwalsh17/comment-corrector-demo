@@ -11,8 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Check Comments
-        uses: clodaghwalsh17/comment-corrector@betav13
+        uses: clodaghwalsh17/comment-corrector@betav14
         with:
-          spellchecker-language: 'en_GB'
           custom-words-file: 'my_dictionary.txt'
           
