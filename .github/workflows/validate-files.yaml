@@ -13,4 +13,6 @@ jobs:
       - name: Check Comments
         uses: clodaghwalsh17/comment-corrector@betav13
         with:
+          spellchecker-language: 'en_GB'
           custom-words-file: 'my_dictionary.txt'
+          
