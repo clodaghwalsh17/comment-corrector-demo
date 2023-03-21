@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Check Comments
-        uses: clodaghwalsh17/comment-corrector@betav14
+        uses: clodaghwalsh17/comment-corrector@betav15
         with:
           custom-words-file: 'my_dictionary.txt'
           
