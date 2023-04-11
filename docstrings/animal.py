@@ -15,7 +15,7 @@ class Animal:
 
     says_str = "A {name} says {sound}"
 
-    def __init__(self, name, sound):
+    def __init__(self, name, sound, num_legs=4):
         """
         Parameters:
         ----------
@@ -26,6 +26,7 @@ class Animal:
         """
         self.name = name
         self.sound = sound
+        self.num_legs = num_legs
 
     def says(self, sound=None):
         if self.sound is None and sound is None:

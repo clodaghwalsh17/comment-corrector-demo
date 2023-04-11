@@ -1,8 +1,8 @@
-class Person:
+class Student:
     """
     A class used to represent a Person
     """
-    id_prefix = 19
+    id_prefix = 190
 
     def __init__(self, name, age):
         self.name = name
@@ -12,5 +12,5 @@ class Person:
         return self.age >= 18
 
 # Create instance of person
-p = Person("Mary", 25)
+p = Student("Mary", 25)
 print(p.over_18())

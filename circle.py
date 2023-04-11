@@ -2,9 +2,6 @@ import random # Built in module
 
 PI = 3.14 # Value of pi
 
-def circumference():
-   pass
-
 # Find area of circle with random radius
 def area():   
    r = random.randint(1, 5) # Random value between 1 and 5
