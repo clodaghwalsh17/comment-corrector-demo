@@ -5,7 +5,7 @@ on: workflow_dispatch
 jobs:
   job1:
     runs-on: ubuntu-latest
-    name: Analyse Commets Using Comment Corrector Action
+    name: Analyse Comments Using Comment Corrector Action
     steps:
       - name: Checkout
         uses: actions/checkout@v3
