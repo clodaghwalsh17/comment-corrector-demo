@@ -12,7 +12,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Check Comments
-        uses: clodaghwalsh17/comment-corrector@v1.2
+        uses: clodaghwalsh17/comment-corrector@v1.3
         with:
           custom-words-file: 'my_dictionary.txt'
           
